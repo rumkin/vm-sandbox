@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "Return number"
+node test/sandbox.js return-number
+echo ""
+
+echo "Return object"
+node test/sandbox.js return-object
+echo ""
+
+echo "Throw error"
+node test/sandbox.js throw-error
+echo ""
+
+echo "Source not found"
+node test/sandbox.js not-exists
+echo ""
